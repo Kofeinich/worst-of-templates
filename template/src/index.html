@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./skeleton.css">
+</head>
+<body class="code-snippets-visible">
+<div id="root"></div>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script type="text/babel">
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+        <div className="container">
+            <section className="header">
+                <h2 className="title">It's a template React app without Node JS & npm</h2>
+                <button className="button button-primary">Button</button>
+            </section>
+        </div>
+    );
+</script>
+</body>
+</html>
